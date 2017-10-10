@@ -1,0 +1,660 @@
+﻿﻿ /*
+    Formatting for a minumum width of 400px with varrying heights.
+*/
+body {
+}
+
+header h1, h4 {
+    text-align: center;
+}
+
+div.video {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    top: 50%;
+    margin-top: -500px;
+    left: 50%;
+    margin-left: -960px;
+    z-index: -5;
+}
+
+header {
+    position: fixed;
+    bottom: 35%;
+    left: 50%;
+    margin-left: -125px;
+}
+
+    header h1 {
+        font-size: 50px;
+        margin-bottom: -25px;
+    }
+
+    header h4 {
+        font-size: 25px;
+    }
+
+    header img {
+        width: 250px;
+        margin-bottom: -100px;
+    }
+
+
+
+section.buttons {
+    position: fixed;
+    width: 1000px;
+    top: 2.5%;
+    left: 2.5%;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+div.projects-button, div.about-button, div.contact-button {
+    /*opacity: 0.5;*/
+}
+
+    div.projects-button > a.backing, div.about-button > a.backing, div.contact-button > a.backing {
+        position: fixed;
+        -webkit-appearance: button;
+        -moz-appearance: button;
+        text-decoration: none;
+        text-align: center;
+        /*opacity: 0.5;*/
+        /*background-color: #1f1a1a;*/
+        color: none;
+        height: 40px;
+        width: 100px;
+        /*border: medium solid white;*/
+    }
+
+    div.about-button > a.backing {
+        margin-left: 130px;
+    }
+
+    div.contact-button > a.backing {
+        margin-left: 260px;
+    }
+
+    div.projects-button > p {
+        position: absolute;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+    div.about-button > p {
+        position: absolute;
+        margin-top: 15px;
+        margin-left: 155px;
+    }
+
+    div.contact-button > p {
+        position: absolute;
+        margin-top: 15px;
+        margin-left: 275px;
+    }
+
+a.text {
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+}
+
+
+section.social-media {
+    position: fixed;
+    width: 120px;
+}
+
+img.social {
+    height: 30px;
+    width: 30px;
+}
+
+@media (min-width: 400px) {
+    section.social-media {
+        position: fixed;
+        right: 2.5%;
+        top: 2.5%;
+    }
+
+    img.social {
+        margin-left: 5px;
+    }
+}
+
+
+@media (min-width: 400px) and (min-height: 350px) and (max-height: 600px) {
+    header {
+        margin-left: -75px;
+    }
+
+        header h1 {
+            font-size: 30px;
+            margin-bottom: -25px;
+        }
+
+        header h4 {
+            font-size: 15px;
+        }
+
+        header img {
+            width: 150px;
+            margin-bottom: -50px;
+        }
+
+    div.video {
+        position: fixed;
+        width: 100%;
+        height: auto;
+        top: 50%;
+        margin-top: -500px;
+        left: 50%;
+        margin-left: -960px;
+        z-index: -5;
+    }
+
+    section.buttons {
+        position: fixed;
+        width: 1000px;
+        bottom: 10%;
+        left: 50%;
+        margin-left: -185px;
+        margin-bottom: 40px;
+    }
+
+    div.projects-button > a.backing, div.about-button > a.backing, div.contact-button > a.backing {
+        position: fixed;
+        -webkit-appearance: button;
+        -moz-appearance: button;
+        text-decoration: none;
+        text-align: center;
+        opacity: 0.5;
+        background-color: #1f1a1a;
+        color: black;
+        height: 30px;
+        width: 90px;
+        border: medium solid white;
+    }
+
+    div.projects-button > a.backing {
+        margin-left: 5px;
+    }
+
+    div.about-button > a.backing {
+        margin-left: 133px;
+    }
+
+    div.contact-button > a.backing {
+        margin-left: 264px;
+    }
+
+    div.projects-button > p {
+        position: absolute;
+        margin-top: 8px;
+        margin-left: 25px;
+    }
+
+    div.about-button > p {
+        position: absolute;
+        margin-top: 8px;
+        margin-left: 160px;
+    }
+
+    div.contact-button > p {
+        position: absolute;
+        margin-top: 8px;
+        margin-left: 285px;
+    }
+
+    a.text {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+
+    section.social-media {
+        position: fixed;
+        right: 5%;
+        top: 10px;
+        width: 120px;
+    }
+
+    img.social {
+        height: 25px;
+        width: 25px;
+        margin-left:5px;
+    }
+}
+
+@media (min-width: 400px) and (max-height: 350px) {
+    header {
+        position: fixed;
+        top: 5%;
+        bottom: unset;
+        left: 50%;
+        margin-left: -75px;
+    }
+
+        header h1 {
+            font-size: 30px;
+            margin-bottom: -25px;
+        }
+
+        header h4 {
+            font-size: 15px;
+        }
+
+        header img {
+            width: 150px;
+            margin-bottom: -50px;
+        }
+
+    section.buttons {
+        position: fixed;
+        width: 1000px;
+        bottom: 10%;
+        left: 50%;
+        margin-left: -175px;
+        margin-bottom: 40px;
+    }
+
+    div.projects-button > a.backing, div.about-button > a.backing, div.contact-button > a.backing {
+        position: fixed;
+        -webkit-appearance: button;
+        -moz-appearance: button;
+        text-decoration: none;
+        text-align: center;
+        opacity: 0.5;
+        background-color: #1f1a1a;
+        color: black;
+        height: 25px;
+        width: 75px;
+        border: medium solid white;
+    }
+
+    div.projects-button > a.backing {
+        margin-left: 5px;
+    }
+
+    div.about-button > a.backing {
+        margin-left: 133px;
+    }
+
+    div.contact-button > a.backing {
+        margin-left: 264px;
+    }
+
+    div.projects-button > p {
+        position: absolute;
+        margin-top: 5px;
+        margin-left: 22px;
+    }
+
+    div.about-button > p {
+        position: absolute;
+        margin-top: 5px;
+        margin-left: 155px;
+    }
+
+    div.contact-button > p {
+        position: absolute;
+        margin-top: 5px;
+        margin-left: 280px;
+    }
+
+    a.text {
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+    }
+
+    section.social-media {
+        position: fixed;
+        right: 5%;
+        top: 5px;
+        width: 120px;
+    }
+
+    img.social {
+        height: 15px;
+        width: 15px;
+        margin-left: 5px;
+    }
+}
+
+
+/*
+    Formatting for a maximum width of 400px with varrying heights.
+*/
+@media (max-width: 400px) and (min-height: 550px) {
+    header {
+        position: fixed;
+        bottom: 45%;
+        left: 50%;
+        margin-left: -75px;
+    }
+
+        header h1 {
+            font-size: 30px;
+            margin-bottom: -25px;
+        }
+
+        header h4 {
+            font-size: 15px;
+        }
+
+        header img {
+            width: 150px;
+            margin-bottom: -50px;
+        }
+
+    section.buttons {
+        position: fixed;
+        width: 1000px;
+        bottom: 15%;
+        left: 50%;
+        margin-left: -185px;
+        margin-bottom: 40px;
+    }
+
+    div.small-screen-background {
+        position: fixed;
+        -webkit-appearance: button;
+        -moz-appearance: button;
+        text-decoration: none;
+        text-align: center;
+        opacity: 0.5;
+        background-color: #1f1a1a;
+        color: black;
+        height: 200px;
+        width: 620px;
+        margin-left: -10%;
+        border-top: medium solid white;
+    }
+
+    div.projects-button > a.backing, div.about-button > a.backing, div.contact-button > a.backing {
+        display: none;
+    }
+
+    div.projects-button > p {
+        position: absolute;
+        margin-top: 1%;
+        margin-left: 160px;
+    }
+
+    div.about-button > p {
+        position: absolute;
+        margin-top: 4%;
+        margin-left: 165px;
+    }
+
+    div.contact-button > p {
+        position: absolute;
+        margin-top: 7%;
+        margin-left: 160px;
+    }
+
+    a.text {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+
+    section.social-media {
+        position: fixed;
+        left: 50%;
+        bottom: 5px;
+        margin-left: -32px;
+        width: 120px;
+    }
+
+    img.social {
+        height: 20px;
+        width: 20px;
+    }
+}
+
+@media (max-width: 400px) and (max-height: 550px) {
+    header {
+        position: fixed;
+        bottom: 45%;
+        left: 50%;
+        margin-left: -75px;
+    }
+
+        header h1 {
+            font-size: 30px;
+            margin-bottom: -25px;
+        }
+
+        header h4 {
+            font-size: 15px;
+        }
+
+        header img {
+            width: 150px;
+            margin-bottom: -50px;
+        }
+
+    section.buttons {
+        position: fixed;
+        width: 1000px;
+        bottom: 20%;
+        left: 50%;
+        margin-left: -185px;
+        margin-bottom: 40px;
+    }
+
+    div.small-screen-background {
+        position: fixed;
+        -webkit-appearance: button;
+        -moz-appearance: button;
+        text-decoration: none;
+        text-align: center;
+        opacity: 0.5;
+        background-color: #1f1a1a;
+        color: black;
+        height: 150px;
+        width: 620px;
+        margin-left: -10%;
+        border-top: medium solid white;
+    }
+
+    div.projects-button > a.backing, div.about-button > a.backing, div.contact-button > a.backing {
+        display: none;
+    }
+
+    div.projects-button > p {
+        position: absolute;
+        margin-top: 1%;
+        margin-left: 160px;
+    }
+
+    div.about-button > p {
+        position: absolute;
+        margin-top: 4%;
+        margin-left: 165px;
+    }
+
+    div.contact-button > p {
+        position: absolute;
+        margin-top: 7%;
+        margin-left: 160px;
+    }
+
+    a.text {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+
+    section.social-media {
+        position: fixed;
+        left: 50%;
+        bottom: 5px;
+        margin-left: -32px;
+        width: 120px;
+    }
+
+    img.social {
+        height: 20px;
+        width: 20px;
+    }
+}
+
+@media (max-width: 400px) and (max-height: 400px) {
+    section.buttons {
+        position: fixed;
+        width: 1000px;
+        bottom: 20%;
+        left: 50%;
+        margin-left: -185px;
+        margin-bottom: 40px;
+    }
+
+    div.small-screen-background {
+        position: fixed;
+        -webkit-appearance: button;
+        -moz-appearance: button;
+        text-decoration: none;
+        text-align: center;
+        opacity: 0.5;
+        background-color: #1f1a1a;
+        color: black;
+        height: 150px;
+        width: 620px;
+        margin-left: -10%;
+        border-top: medium solid white;
+    }
+
+    div.projects-button > a.backing, div.about-button > a.backing, div.contact-button > a.backing {
+        display: none;
+    }
+
+    div.projects-button > p {
+        position: absolute;
+        margin-top: 1%;
+        margin-left: 160px;
+    }
+
+    div.about-button > p {
+        position: absolute;
+        margin-top: 3%;
+        margin-left: 165px;
+    }
+
+    div.contact-button > p {
+        position: absolute;
+        margin-top: 5%;
+        margin-left: 160px;
+    }
+
+    a.text {
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+    }
+
+    section.social-media {
+        position: fixed;
+        left: 50%;
+        bottom: 5px;
+        margin-left: -35px;
+        width: 120px;
+    }
+
+    img.social {
+        height: 20px;
+        width: 20px;
+    }
+}
+
+@media (max-width: 400px)and (max-height: 300px) {
+    header {
+        position: fixed;
+        top: -5%;
+        left: 50%;
+        margin-left: -65px;
+    }
+
+        header h1 {
+            font-size: 30px;
+            margin-bottom: -25px;
+        }
+
+        header h4 {
+            font-size: 15px;
+        }
+
+        header img {
+            width: 125px;
+            margin-bottom: -50px;
+        }
+
+    section.buttons {
+        position: fixed;
+        width: 1000px;
+        bottom: 20%;
+        left: 50%;
+        margin-left: -185px;
+        margin-bottom: 40px;
+    }
+
+    div.small-screen-background {
+        position: fixed;
+        -webkit-appearance: button;
+        -moz-appearance: button;
+        text-decoration: none;
+        text-align: center;
+        opacity: 0.5;
+        background-color: #1f1a1a;
+        color: black;
+        height: 150px;
+        width: 620px;
+        margin-left: -10%;
+        border-top: medium solid white;
+    }
+
+    div.projects-button > a.backing, div.about-button > a.backing, div.contact-button > a.backing {
+        display: none;
+    }
+
+    div.projects-button > p {
+        position: absolute;
+        margin-top: 0.5%;
+        margin-left: 165px;
+    }
+
+    div.about-button > p {
+        position: absolute;
+        margin-top: 2.25%;
+        margin-left: 170px;
+    }
+
+    div.contact-button > p {
+        position: absolute;
+        margin-top: 4%;
+        margin-left: 165px;
+    }
+
+    a.text {
+        text-decoration: none;
+        color: white;
+        font-size: 8px;
+    }
+
+    section.social-media {
+        position: fixed;
+        left: 50%;
+        bottom: 5px;
+        margin-left: -28px;
+        width: 120px;
+    }
+
+    img.social {
+        height: 15px;
+        width: 15px;
+    }
+}

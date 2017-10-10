@@ -1,0 +1,171 @@
+﻿html {
+    background-image: url(Images/Background1.jpg);
+    background-size: cover;
+    background-repeat: repeat-y
+}
+
+body {
+    width: 100%;
+    height: 600px;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 75px;
+    border-bottom: thick solid black;
+    background-color: #cbcdcd;
+    z-index: 8;
+}
+
+    header .center {
+        position: relative;
+        height: 100px;
+        top: 0;
+        left: 0
+    }
+
+    header a.logo {
+        position: relative;
+        display: block;
+        float: left;
+        width: 222px;
+        height: 60px;
+        margin: 0 35px 0 0;
+    }
+
+        header a.logo .diaphram {
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 75px;
+            width: 150px;
+        }
+
+        header a.logo .text1 {
+            position: absolute;
+            right: 30px;
+            top: 0;
+            color: black;
+        }
+
+        header a.logo .text2 {
+            position: absolute;
+            right: 0;
+            top: 20px;
+            color: black;
+        }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #cbcdcd;
+    border-top: thick solid black;
+}
+
+nav #menu {
+    float: left;
+    height: 90px;
+}
+
+#menu > ul {
+    height: 50px;
+}
+
+    #menu > ul > li {
+        float: left;
+        margin: 0 50px 0 0;
+    }
+
+        #menu > ul > li > a {
+            height: 14px;
+            padding: 20px 10px;
+            text-transform: uppercase;
+        }
+
+            #menu > ul > li > a.actif {
+                padding-bottom: 27px;
+                border-bottom: 3px solid #3a6774;
+            }
+
+        #menu > ul > li > ul {
+            left: 0;
+        }
+
+            #menu > ul > li > ul > li:first-child {
+                border-top: 1px solid #cbcdcd;
+            }
+
+ul.list {
+    position: fixed;
+    top: 0;
+    right: 200px;
+    width: 400px;
+}
+
+    ul.list > li a {
+        position: relative;
+        display: block;
+        color: #2a2a2a;
+        font: normal 14px 'HNBD';
+        line-height: 14px;
+        z-index: 0;
+    }
+
+#media {
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    width: 120px;
+}
+
+img.social {
+    height: 30px;
+    width: 30px;
+}
+
+div.consultation {
+    position: absolute;
+    top: 150px;
+    bottom: 30px;
+    left: 0;
+    height: 600px;
+    width: 100%;
+    background-color: black;
+}
+
+    div.consultation > div.text1 {
+        float: left;
+        width: 300px;
+        position: relative;
+        left: 50px;
+        top: 30px;
+        color: white;
+    }
+
+        div.consultation > div.text1 p {
+            position: relative;
+            top: 0;
+            bottom: 0;
+            color: white;
+        }
+
+div.image {
+    float: right;
+    position: relative;
+    right: 30px;
+    top: 50px;
+    width: 450px;
+    height: 300px;
+}
+
+    div.image img {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }

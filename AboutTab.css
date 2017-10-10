@@ -1,0 +1,393 @@
+﻿body {
+}
+
+/* Start styling for nav bar */
+a.logo, img.logopic, a.text {
+    float: left;
+    display: inline;
+}
+
+img.logopic {
+    height: 70px;
+}
+
+#tabs {
+    margin-top: 10px;
+}
+
+img.social {
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin-top: 20px;
+}
+/* End styling for nav bar */
+
+#banner1, #banner2, #banner3 {
+    margin-top: 75px;
+}
+
+div.our-story, div.nations, div.will {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+    div.our-story > h3, div.our-story > h2, div.our-story > p,
+    div.nations > h2, div.nations > p {
+        color: white;
+    }
+
+div.meet {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+    div.meet > img {
+        display: inline;
+        height: 40px;
+    }
+
+    div.meet > h3 {
+        display: inline;
+        color: white;
+    }
+
+#banner2 > div.nations > div.image1 > img {
+    float: right;
+    display: inline;
+    height: 300px;
+}
+
+#banner2 > div.nations > div.description1 {
+    float: left;
+    display: inline;
+    width: 65%;
+    color: white;
+}
+
+#banner3 > div.will > div.image2 > img {
+    float: left;
+    display: inline;
+    height: 300px;
+}
+
+#banner3 > div.will > div.description2 {
+    float: right;
+    display: inline;
+    width: 65%;
+    color: white;
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1024px) {
+    #banner1, #banner2, #banner3 {
+        margin-top: 75px;
+    }
+
+    div.our-story, div.nations, div.will {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+        div.our-story > h3, div.our-story > h2, div.our-story > p,
+        div.nations > h2, div.nations > p {
+            color: white;
+        }
+
+    div.meet {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+        div.meet > img {
+            display: inline;
+            height: 40px;
+        }
+
+        div.meet > h3 {
+            display: inline;
+            color: white;
+        }
+
+    #banner2 > div.nations > div.image1 > img {
+        float: right;
+        display: inline;
+        height: 300px;
+    }
+
+    #banner2 > div.nations > div.description1 {
+        float: left;
+        display: inline;
+        width: 60%;
+        color: white;
+    }
+
+    #banner3 > div.will > div.image2 > img {
+        float: left;
+        display: inline;
+        height: 300px;
+    }
+
+    #banner3 > div.will > div.description2 {
+        float: right;
+        display: inline;
+        width: 60%;
+        color: white;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) and (min-width: 400px) {
+    /* Start styling for nav bar */
+    img.logopic {
+        float: left;
+        display: inline;
+    }
+
+    img.logopic {
+        max-width: 104px;
+        margin-right: 5px;
+        height: auto;
+    }
+
+    #tabs {
+        margin-top: 0;
+        margin-bottom: 0;
+        height: 0;
+    }
+
+        #tabs > li, #tabs > a {
+            height: 25px;
+            display: inline-block;
+        }
+
+    .social-media {
+        width: 20px;
+        float: right;
+    }
+
+    img.social {
+        height: 15px;
+        width: 15px;
+        float: right;
+        margin-top: 0;
+        display: block;
+    }
+    /* End styling for nav bar */
+
+    /* Start styling for page content */
+    #banner1, #banner2, #banner3 {
+        margin-top: 75px;
+    }
+
+    div.our-story, div.nations, div.will {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+        div.our-story > h3, div.our-story > h2, div.our-story > p,
+        div.nations > h2, div.nations > p {
+            color: white;
+        }
+
+        div.our-story > h2, div.description1 > h2, div.description2 > h2 {
+            font-size: 24px;
+        }
+
+    div.meet > h3 {
+        font-size: 20px;
+    }
+
+    div.our-story > p {
+        font-size: 12px;
+    }
+
+    div.meet {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+        div.meet > img {
+            display: inline;
+            height: 40px;
+        }
+
+        div.meet > h3 {
+            display: inline;
+            color: white;
+        }
+
+    #banner2 > div.nations > div.image1 > img {
+        float: right;
+        display: inline;
+        width: 30%;
+        height: 20%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    #banner2 > div.nations > div.description1 {
+        float: left;
+        display: inline;
+        width: 65%;
+        color: white;
+        font-size: 12px;
+    }
+
+    #banner3 > div.will > div.image2 > img {
+        float: left;
+        display: inline;
+        width: 30%;
+        height: 20%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    #banner3 > div.will > div.description2 {
+        float: right;
+        display: inline;
+        width: 65%;
+        color: white;
+        font-size: 12px;
+    }
+    /* End styling for page content */
+}
+
+@media (max-width: 460px) and (min-width: 400px) {
+    #banner2 > div.nations > div.image1 > img {
+        float: right;
+        display: inline;
+        width: 30%;
+        height: 20%;
+        margin-top: 15%;
+    }
+
+    #banner3 > div.will > div.image2 > img {
+        float: left;
+        display: inline;
+        width: 30%;
+        height: 20%;
+        margin-top: 15%;
+    }
+}
+
+/* Landscape phones and down */
+@media (max-width: 400px) {
+    /* Start styling for nav bar */
+    img.logopic, #tabs {
+        float: left;
+        display: inline;
+    }
+
+    img.logopic {
+        max-width: 104px;
+        margin-right: 5px;
+        height: auto;
+    }
+
+    #tabs {
+        margin-top: -10px;
+    }
+
+        #tabs > li, #tabs > a {
+            font-size: 0.7em;
+            height: 15px;
+            margin-top: 0px;
+        }
+
+    .social-media {
+        width: 20px;
+        float: right;
+    }
+
+    img.social {
+        height: 15px;
+        width: 15px;
+        float: right;
+        margin-top: 0;
+        display: block;
+    }
+    /* End styling for nav bar */
+
+    /* Start styling for page content */
+    #banner1, #banner2, #banner3 {
+        margin-top: 75px;
+    }
+
+    div.our-story, div.nations, div.will {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+        div.our-story > h3, div.our-story > h2, div.our-story > p,
+        div.nations > h2, div.nations > p {
+            color: white;
+        }
+
+        div.our-story > h2, div.description1 > h2, div.description2 > h2 {
+            font-size: 18px;
+        }
+
+    div.meet > h3 {
+        font-size: 14px;
+    }
+
+    div.our-story > p {
+        font-size: 8px;
+    }
+
+    div.meet {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+        div.meet > img {
+            display: inline;
+            height: 40px;
+        }
+
+        div.meet > h3 {
+            display: inline;
+            color: white;
+        }
+
+    #banner2 > div.nations > div.image1 > img,
+    #banner3 > div.will > div.image2 > img {
+        position: absolute;
+        display: block;
+        right: 5%;
+        width: 70px;
+        height: 100px;
+    }
+
+    #banner2 > div.nations > div.description1,
+    #banner3 > div.will > div.description2 {
+        float: left;
+        display: inline;
+        width: 100%;
+        color: white;
+        font-size: 8px;
+    }
+
+    /*#banner3 > div.will > div.image2 > img {
+        float: left;
+        display: inline;
+        width:30%;
+        height: 20%;
+        margin-top:10%;
+        margin-bottom:10%;
+    }*/
+
+    /*#banner3 > div.will > div.description2 {
+        float: right;
+        display: inline;
+        width: 65%;
+        color: white;
+        font-size:8px;
+    }*/
+    /* End styling for page content */
+}
